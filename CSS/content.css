@@ -1,0 +1,141 @@
+/* starting content area*/
+.content{
+    padding-top: 15px;
+    
+    background-color:rgb(247, 247, 247);
+}
+
+/* customize the <a> of first 2 line of content*/
+.top, .top2{
+    margin-left: 20px;
+    
+}
+.top p, .top2 p{
+    display: inline-block;
+    font-size: 14px;
+    cursor: default;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.top a{ 
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-weight: inherit;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 14px;
+}
+.top .fist-a{
+    color: white;
+    background-color: rgb(255, 166, 0);
+    
+}
+.top .second-a:hover{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.top2 a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-weight: inherit;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 14px;
+}
+.top2 a:hover{
+    text-decoration:underline;
+    color: rgb(138, 0, 0);
+}
+.top2 .end:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*now we go to below-top section*/
+.below-top{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 150px 1fr;
+    padding-top: 40px;
+}
+.below-top1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 26px;
+    color: rgb(138, 0, 0);
+    cursor: default;
+}
+.below-top2{
+    display: block;
+    margin-right: 55px;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+
+}
+.below-top2 a{
+    display: block;
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+}
+.below-top2 span{
+    margin: 0;
+}
+.below-top2 span:hover{
+    color: rgb(47, 250, 47);
+    background-color: black;
+}
+/*now lt's go to blow blow-top2 >_<*/
+
+.below-top3{
+    border-top: 8px dashed darksalmon;
+    display: block;
+    
+}
+.below-top3-left{
+    display: inline-block;
+    width: 66%;
+    vertical-align: middle;
+}
+.below-top3-left p{
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.below-top3-left span{
+    font-size: 95px;
+    color: rgb(255, 166, 0);
+    
+}
+.below-top3-left a{
+    color: rgb(138, 0, 0); 
+    font-size: 24px;
+    text-decoration: none;
+}
+.below-top3-left a:hover{
+    text-decoration:underline;
+}
+.below-top3-right{
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+}
+.below-top3-right img{
+    margin-top: 50px;
+    height: 504px;
+}
+/* end of content >_<*/

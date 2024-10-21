@@ -1,0 +1,30 @@
+.button-section{
+    background-color: #444;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    
+}
+.button-section p{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.button-section p,.button-section span,.button-section a{
+    margin-left: 35px;
+    color: white;
+}
+.button-section span{
+    color: white;
+    display: inline;
+    font-size: 24px;
+    
+}
+.button-section a{
+    color: white;
+    text-decoration: none;
+}
+.button-section a:hover{
+    text-decoration: underline;
+}
